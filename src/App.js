@@ -7,7 +7,6 @@ import Starred from "./pages/Starred";
 function App() {
   return (
     <BrowserRouter>
-      <Navs />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/starred" element={<Starred />} />
